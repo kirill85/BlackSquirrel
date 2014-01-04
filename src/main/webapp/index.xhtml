@@ -12,19 +12,21 @@
                 <p:submenu label="Категории стаффа">
                     <p:menuitem value="Палатки"/>
                     <p:submenu label="Одежда">
-                        <p:menuitem value="Стимпанк"/>
-                        <p:menuitem value="Фэнтези"/>
+                        <p:submenu label="Стимпанк">
+                            <p:menuitem value="Головные уборы"/>
+                            <p:menuitem value="Одежда"/>
+                            <p:menuitem value="Аксессуары"/>
+                        </p:submenu>
+                        <p:submenu label="Фэнтези">
+                            <p:menuitem value="Головные уборы"/>
+                            <p:menuitem value="Одежда"/>
+                            <p:menuitem value="Аксессуары"/>
+                        </p:submenu>
                     </p:submenu>
+                    <p:menuitem value="Распродажа"/>
                 </p:submenu>
-                <p:menuitem value = "О нас"/>
-            </p:menubar>
-            <div>
-                <p>
-                    Наша мастерская занимается изготовлением 
-                    всевозможного ролевого, околоролевого и реконструкторского стаффа - костюмов, 
-                    шатров, разнообразных изделий из кожи и не только.
-                </p>
-            </div>
+                <p:menuitem value = "О нас" action="about.xhtml"/>
+            </p:menubar>      
         </h:form>
     </h:body>
 </html>
